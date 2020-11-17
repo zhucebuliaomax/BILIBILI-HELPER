@@ -17,6 +17,7 @@ jobs:
         ref: main
         fetch-depth: 0
         lfs: true
+        repo-token: ad144eac850ad419371a7d33f6f9858001946af6
 
     - name: Set git identity
       run : |
